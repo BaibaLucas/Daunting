@@ -1,0 +1,32 @@
+.home{
+  height: calc(100vh - 10vh);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .homeImg{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .content{
+    position: absolute;
+    bottom: 25%;
+    .title{
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .description{
+      font-size: 1.5rem;
+      margin: 1rem;
+      text-transform: capitalize;
+    }
+    .server{
+      font-style: italic;
+    }
+  }
+}
