@@ -1,0 +1,35 @@
+.showcounter{
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  height: 30vh;
+  width: 60vw;
+  max-height: 200px;
+  width: 300px;
+  color: #daf6ff;
+  margin-bottom: 3rem;
+  .imgcontainer{
+    width: 100%;
+    img{
+      min-width: 250px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .countercontainer{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    .countdown{
+      max-height: 100%;
+      max-width: 100%;
+      .timevalue{
+        margin: 0.5rem 1rem;
+        border-radius: 50%;
+      }
+      .typevalue{
+        font-size: 0.8rem;
+      }
+    } 
+  }
+}
