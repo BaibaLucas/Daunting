@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CatchEye from './CatchEye';
+import CatchEye from './Catcheye';
 import ModalContent from './ModalContent';
 
 const Modal = ({img}) => {
