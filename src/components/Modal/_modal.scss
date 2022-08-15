@@ -1,0 +1,22 @@
+.modal{
+  border: solid 2px #25ADD2;
+  position: absolute;
+  right: 0;
+  bottom: 45%;
+  border-radius: 10px 0 0 10px;
+  background-color: black;
+  color: #25ADD2;
+  padding: 0 0.2rem;
+  transition: all 2.5s;
+  &:hover{
+    @include media('>phone'){
+        -webkit-box-shadow: 5px 5px 40px 5px #25ADD2; 
+        box-shadow: 5px 5px 40px 5px #25ADD2;
+    };
+  }
+  .container{
+  }
+  &.close {
+    border: none;
+  }
+}

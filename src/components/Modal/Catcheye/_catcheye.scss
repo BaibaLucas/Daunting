@@ -1,0 +1,13 @@
+.catcheye{
+  text-orientation: upright;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  &.close{
+    display: none;
+  }
+  
+}

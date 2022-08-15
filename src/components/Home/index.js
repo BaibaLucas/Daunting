@@ -1,6 +1,8 @@
 import React from "react";
 
 import CountDownTimer from '../CountDown';
+import Modal from '../Modal';
+import Priest from '../../assets/images/DPrecruit.png';
 
 const Home = () => {
 
@@ -21,6 +23,7 @@ const Home = () => {
           </div>
         </div>
         <CountDownTimer targetDate={wotlkLaunch}/>
+        <Modal img={Priest}/>
       </div>
     </div>
   )
