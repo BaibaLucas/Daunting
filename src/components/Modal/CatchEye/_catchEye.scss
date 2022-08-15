@@ -9,5 +9,9 @@
   &.close{
     display: none;
   }
-  
+  @include media('>mid'){
+    min-width: 500px;
+    border: solid 2px red;
+    color: red;
+};
 }

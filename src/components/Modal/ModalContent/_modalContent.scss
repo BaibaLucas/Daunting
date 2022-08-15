@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 50;
   top: 0px;
-  right: 0;
+  right: 0px;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,6 +11,7 @@
   background-color: rgba(0, 0, 0, 0.905);
   padding: 0rem 2rem;
   animation:fadein .5s;
+  overflow: hidden;
   @include media('>=mid'){
     border-radius: 10px;
     align-items: center;
