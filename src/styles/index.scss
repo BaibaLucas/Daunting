@@ -24,11 +24,10 @@
 html,
 body {
   font-family: 'Lato', sans-serif;
-  height: 100%;
+  height: calc(100vh - env(safe-area-inset-bottom));
   width: 100%;
   color:white;
   cursor: default;
-  padding-bottom: calc(1rem + env(safe-area-inset-bottom));
 }
 
 /* Upgrade */
