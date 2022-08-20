@@ -24,7 +24,7 @@
     min-height: 400px;
   };
   .modaltitle{
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
     @include media('>=large'){
