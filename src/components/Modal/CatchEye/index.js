@@ -8,7 +8,7 @@ const CatchEye = ({open, setOpen}) => {
   }
   return (
     <div className={open ? 'catcheye close' : 'catcheye'}>
-      <div className='vertical-description'
+      <div className='catcheye--vertical-description'
       onClick={openModal}>
         recruitment
       </div>

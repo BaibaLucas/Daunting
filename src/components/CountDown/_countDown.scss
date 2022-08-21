@@ -8,7 +8,7 @@
   width: 300px;
   color: #daf6ff;
   margin-bottom: 3rem;
-  .imgcontainer{
+  &__imgcontainer{
     width: 100%;
     img{
       min-width: 250px;
@@ -16,7 +16,7 @@
       height: auto;
     }
   }
-  .countercontainer{
+  &__container{
     display: flex;
     justify-content: center;
     max-height: 100%;
@@ -24,11 +24,11 @@
     .countdown{
       max-height: 100%;
       max-width: 100%;
-      .timevalue{
+      &__timevalue{
         margin: 0.5rem 1rem;
         border-radius: 50%;
       }
-      .typevalue{
+      &__typevalue{
         font-size: 0.8rem;
       }
     } 

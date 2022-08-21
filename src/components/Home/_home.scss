@@ -7,7 +7,7 @@
   background: url('../../assets/images/dauntingtlk2.png');
   background-position: center;
   background-repeat: no-repeat;
-  .content{
+  &__content{
     height: 100%;
     width: 100%;
     display: flex;
@@ -15,25 +15,24 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    .title{
-      margin-top: 2rem;
-      font-size: 3rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-    }
-    .description{
-      font-size: 1.5rem;
-      margin: 1rem;
-      text-transform: capitalize;
-      text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-    }
-    .server{
-      font-style: italic;
-      text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
-    }
-    .countdowntimer{
-      border: solid 2px red;
+    &__text{
+      &__title{
+        margin-top: 2rem;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+      }
+      &__description{
+        font-size: 1.5rem;
+        margin: 1rem;
+        text-transform: capitalize;
+        text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+      }
+      &__server{
+        font-style: italic;
+        text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+      }
     }
   }
 }

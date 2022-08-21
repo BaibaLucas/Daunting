@@ -1,8 +1,6 @@
 import React from "react";
 
 import CountDownTimer from '../CountDown';
-import Modal from '../Modal';
-import Priest from '../../assets/images/DPrecruit.png';
 
 const Home = () => {
 
@@ -10,20 +8,19 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <div className='content'>
-        <div className='content-text'>
-          <div className='title'>
+      <div className='home__content'>
+        <div className='home__content__text'>
+          <div className='home__content__text__title'>
             Daunting
           </div>
-          <div className='description'>
+          <div className='home__content__text__description'>
             coming soon
           </div>
-          <div className='server'>
+          <div className='home__content__text__server'>
             EU-Sulfuron PVP
           </div>
         </div>
         <CountDownTimer targetDate={wotlkLaunch}/>
-        <Modal img={Priest}/>
       </div>
     </div>
   )

@@ -6,20 +6,20 @@ const NotFound = () => {
 
   return (
     <div className='notFound'>
-      <div className='container'>
-        <img className='homeImg' alt="eyes illustration" src={eyes} />
-        <div className='content'>
-          <div className='number'>
+      <div className='notFound__container'>
+        <img className='notFound__container__homeImg' alt="eyes illustration" src={eyes} />
+        <div className='notFound__container__content'>
+          <div className='notFound__container__content__number'>
             404
           </div>
-          <div className='title'>
+          <div className='notFound__container__content__title'>
             page not found
           </div>
-          <div className='description'>
+          <div className='notFound__container__content__description'>
             The page you are looking for might have been removed had its name changed or temporarily unavailable
           </div>
           <a href='/'>
-            <div className='button'>
+            <div className='notFound__container__content__button'>
             go to homepage
             </div>
           </a>

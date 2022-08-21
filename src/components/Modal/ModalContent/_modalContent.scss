@@ -22,15 +22,16 @@
     box-shadow: 5px 5px 40px 5px #25ADD2;
     min-width: 400px;
     min-height: 400px;
+    top: -25%;
   };
-  .modaltitle{
+  &__title{
     font-size: 1.7rem;
     text-transform: uppercase;
     text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
     @include media('>=large'){
     };
   }
-  .card{
+  &__card{
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@
       height: 70%;
       width: 80%;
     };
-    .illustration{
+    &__illustration{
       width: 100%;
       @include media('>mid'){ 
       };
@@ -57,7 +58,7 @@
         };
       }
     }
-    .description{
+    &__description{
       color: white;
       @include media('>mid'){
         height: 20%;
@@ -66,13 +67,14 @@
     }
   }
   
-  .dismiss{
+  &__dismiss{
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     cursor: pointer;
     @include media('>mid'){
         margin-top: 2rem;
+        margin-bottom: 0;
     };
   }
   

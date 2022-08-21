@@ -9,6 +9,9 @@
   &.close{
     display: none;
   }
+  &--vertical-description{
+    
+  }
   @include media('>phone'){
     min-width: 30px;
 };

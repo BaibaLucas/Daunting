@@ -23,7 +23,7 @@ const Modal = ({img}) => {
       <>
       {height > 300 && (
         <div className={open ? 'modal close' : 'modal'}>
-        <div className='container'>
+        <div className='modal__container'>
           <CatchEye open={open} setOpen={setOpen} />
           <ModalContent open={open} setOpen={setOpen} img={img}/>
         </div>

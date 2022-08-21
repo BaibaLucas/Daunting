@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-      <div className='law'>
+      <div className='footer__law'>
       Copyright © Daunting. All rights reserved.
       </div>
     </div>
