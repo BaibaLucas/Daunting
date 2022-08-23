@@ -19,6 +19,11 @@ const Modal = ({img, wowClass}) => {
     return () => window.removeEventListener('resize', handleResize);
   }, [height, width]);
 
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return ()=> document.body.style.overflow = 'unset';
+  });
+
   return (
       <>
       {height > 300 && (
