@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ModalContent = ({open, setOpen, img}) => {
+const ModalContent = ({open, setOpen, img, wowClass}) => {
 
 
   const closeModal = () => {
@@ -15,7 +15,7 @@ const ModalContent = ({open, setOpen, img}) => {
           <img src={img} alt='illustration'></img>
         </div>
         <div className='modalcontent__card__description'>
-          Discipline Priest
+          {wowClass}
         </div>
       </div>
       <div className='modalcontent__dismiss' onClick={closeModal}>Dismiss</div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CatchEye from './CatchEye';
 import ModalContent from './ModalContent';
 
-const Modal = ({img}) => {
+const Modal = ({img, wowClass}) => {
 
   /// Modal State
   const [open, setOpen] = useState(false);
@@ -25,7 +25,7 @@ const Modal = ({img}) => {
         <div className={open ? 'modal close' : 'modal'}>
         <div className='modal__container'>
           <CatchEye open={open} setOpen={setOpen} />
-          <ModalContent open={open} setOpen={setOpen} img={img}/>
+          <ModalContent open={open} setOpen={setOpen} img={img} wowClass={wowClass}/>
         </div>
       </div>
       )}

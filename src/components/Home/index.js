@@ -1,6 +1,9 @@
 import React from "react";
 
+
+import DK from '../../assets/images/DKrecruit.png';
 import CountDownTimer from '../CountDown';
+import Modal from '../Modal';
 
 const Home = () => {
 
@@ -21,6 +24,7 @@ const Home = () => {
           </div>
         </div>
         <CountDownTimer targetDate={wotlkLaunch}/>
+        <Modal img={DK} wowClass={'Death Knight'}/>
       </div>
     </div>
   )
