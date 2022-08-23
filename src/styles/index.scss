@@ -7,6 +7,7 @@
 @import './breakpoints';
 
 /* Colors vars*/
+@import './vars';
 
 
 /* Components styles */
@@ -19,6 +20,9 @@
 @import '../components/Modal/ModalContent/modalContent';
 @import '../components/Modal/CatchEye/catchEye';
 @import '../components/Recruitment/recruitment';
+@import '../components/Header/header';
+@import '../components/Header/Burger/burger';
+@import '../components/Header/Menu/menu';
 
 /* Base */
 

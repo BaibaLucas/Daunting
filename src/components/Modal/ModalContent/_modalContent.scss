@@ -12,6 +12,7 @@
   padding: 0rem 2rem;
   animation:fadein .5s;
   overflow: hidden;
+  padding-top: 5rem;
   @include media('>=mid'){
     border-radius: 10px;
     align-items: center;
@@ -32,7 +33,7 @@
     };
   }
   &__card{
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -70,7 +71,7 @@
   &__dismiss{
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
     cursor: pointer;
     @include media('>mid'){
         margin-top: 2rem;
