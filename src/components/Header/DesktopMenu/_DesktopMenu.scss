@@ -1,0 +1,37 @@
+.desktopmenu{
+  display: none;
+  @include media('>large'){
+    display: block;
+  };
+  &__nav{
+    margin-right: 2rem;
+    &__list{
+      display: flex;
+      justify-content: flex-end;
+      &__item{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0rem 2rem;
+        color: $wotlkblue;
+        transition: all 1.5s;
+        &:hover{
+          text-shadow: 0 0 30px rgba(10, 175, 230, 1),  0 0 30px rgba(10, 175, 230, 0);
+        }
+        &__name{
+         
+        }
+      }
+    }
+  }
+  a{
+   
+  }
+  .active{
+    margin: 0rem 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid $wotlkblue;
+    text-shadow: 0 0 30px rgba(10, 175, 230, 1),  0 0 30px rgba(10, 175, 230, 0);
+  }
+}

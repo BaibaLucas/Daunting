@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../assets/images/dauntingtlk.png'
 import Burger from './Burger/index';
 import Menu from './Menu/index';
+import DesktopMenu from './DesktopMenu';
 
 
 const Header = () => {
@@ -21,6 +22,7 @@ const Header = () => {
         <div className='header__container__nav'>
           <Burger open={open} setOpen={setOpen} />
           <Menu open={open} setOpen={setOpen} />
+          <DesktopMenu />
         </div>
       </div>
     </div>

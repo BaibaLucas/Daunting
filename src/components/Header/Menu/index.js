@@ -31,6 +31,11 @@ const Menu = ({ open, setOpen }) => {
               About
             </li>
           </NavLink>
+          <NavLink className='menu__nav__list__item' onClick={close} to='#'>
+            <li className='menu__nav__list__item__name'>
+              Close
+            </li>
+          </NavLink>
         </ul>
       </nav>
     </div>
