@@ -1,6 +1,6 @@
 .recruitment{
     height: 100%;
-    padding: 1rem;
+    padding-top: 7rem;
     &__container{
         border: solid 2px red;
         height: 100%;
@@ -9,37 +9,39 @@
         flex-direction: column;
         &__card{
             border: solid 2px blue;
-            height: 40vh;
             width: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            &__image{
-                height:80%;
-                width: 100%;
-                border: 2px solid yellow;
-            }
-            &__class{
-                height: 10%;
-                width: 100%;
-                border: 2px solid yellow;
-                text-align: center;
-            }
-            &__spec{
+            justify-content: flex-start;
+            &__top{
+                border: solid 2px red;
                 display: flex;
-                border: 2px solid yellow;
-                height: 10%;
-                width: 100%;
-                &__spec1{
-
+                justify-content: space-between;
+                padding: 1rem;
+                &__img{
                 }
-                &__spec2{
-                    
-                }
-                &__spec3{
-                    
+                &__class{
+                    font-size: 1.3rem;
+                    text-align: center;
                 }
             }
+            &__bot{
+                border: solid 2px yellow;
+                &__spec{
+                    border: solid 2px green;
+                    &__container{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border: solid 2px green;
+                        padding: 1rem
+                    }
+                }
+            }
+            .close{
+                display: none;
+            }
+            
         }
     }
 }
