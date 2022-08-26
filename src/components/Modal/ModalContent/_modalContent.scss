@@ -58,6 +58,7 @@
         width: 100%;
         max-width: 200px;
         @include media('>mid'){
+          max-width: 300px;
         };
       }
     }

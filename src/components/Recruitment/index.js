@@ -1,46 +1,58 @@
 import React, {useState} from "react";
 
-import WoWClasses from '../../data/WowClasses.json';
+import {data as WoWClasses} from '../../data/WowClasses';
 
 const Recruitment = () => {
 
-  const [openSpec, setOpenSpec] = useState(false);
+  const [openSpec, setOpenSpec] = useState([]);
 
-  const showMeSpecs = () => {
-    setOpenSpec(!openSpec);
+  const toggle = (wowClass) => {
+    // if it's in the array, then remove it
+    if (openSpec.includes(wowClass)){
+      const index = openSpec.indexOf(wowClass);
+      if(index > -1) {
+        setOpenSpec(openSpec.splice(index, 0));
+      }
+    }
+    // If not in the array, then add it to the array
+    else {
+      setOpenSpec([...openSpec, wowClass]);
+    }
   }
 
   return (
     <div className='recruitment'>
       <div className='recruitment__container'>
-        {WoWClasses.map((wowClass, index) => {
+        {WoWClasses.map((wowClass, i) => {
           return(
-            <>
-            <div  className='recruitment__container__card' onClick={showMeSpecs}>
-              <div  className='recruitment__container__card__top'>
-              <div  key={index} className='recruitment__container__card__top__class'>{wowClass.name}</div>
-              <div className='recruitment__container__card____top__img'>img</div>
+            <React.Fragment key={i}>
+            <div className='recruitment__container__card' onClick={() => toggle(wowClass.name)}>
+              <div className='recruitment__container__card__top'>
+              <div className='recruitment__container__card__top__class'>{wowClass.name}</div>
+              <div className='recruitment__container__card__top__class__img'>
+                <img src={wowClass.img} alt={wowClass.name}/>
               </div>
-              <div  className={openSpec ? 'recruitment__container__card__bot' : 'close'} >
+              </div>
+              <div  className={openSpec.includes(wowClass.name)? 'recruitment__container__card__bot' : 'hidden'} >
               <div className='recruitment__container__card__bot__spec'>
-                {wowClass.spec.map((spec, index) => {
+                {wowClass.spec.map((spec, ind) => {
                   return(
-                    <>
-                    <div key={spec.name} className='recruitment__container__card__bot__spec__container'>
-                      <div  className="recruitment__container__card__bot__spec__container__name">
-                        {spec.name}  
+                    <React.Fragment key={ind}>
+                    <div key={'index'+ind}className='recruitment__container__card__bot__spec__container'>
+                      <div className="recruitment__container__card__bot__spec__container__name">
+                        {spec.name}
                       </div>
-                      <div className="recruitment__container__card__bot__spec__container__plus">
-                        {spec.open}  
+                      <div className={`recruitment__container__card__bot__spec__container__plus ${spec.open}`}>
+                        {spec.open}
                       </div>
                     </div>
-                    </>
+                    </React.Fragment>
                   )
                 })}
               </div>
               </div>
             </div>
-            </> 
+            </React.Fragment>
           );
         })
       }

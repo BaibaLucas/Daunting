@@ -1,45 +1,119 @@
 .recruitment{
     height: 100%;
     padding-top: 7rem;
+    @include media('>mid'){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    };
     &__container{
-        border: solid 2px red;
         height: 100%;
         padding: 1rem;
         display:flex;
         flex-direction: column;
+        @include media('>mid'){
+            width: 100%;
+            height: 100%;
+            max-width: 1300px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center
+        };
         &__card{
-            border: solid 2px blue;
+            border: solid 2px $wotlkblue;
             width: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
+            margin: 0.5rem 0rem;
+            -webkit-box-shadow: 5px 5px 15px 5px #25ADD2; 
+            box-shadow: 5px 5px 15px 5px #25ADD2;
+            transition: all 2.5s;
+            @include media('>mid'){
+                width: 25%;
+                height: 25%;
+                margin: 2rem;
+                justify-content: space-evenly;
+            };
+            &:hover{
+                @include media('>mid'){
+                    -webkit-box-shadow: 5px 5px 40px 5px #25ADD2; 
+                    box-shadow: 5px 5px 40px 5px #25ADD2;
+                };
+            }
             &__top{
-                border: solid 2px red;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 padding: 1rem;
-                &__img{
+                font-size: 1.5rem;
+                @include media('>mid'){
+                    flex-direction: column
+                };
+                &:hover{
+                    @include media('>mid'){
+                        
+                    };
                 }
                 &__class{
-                    font-size: 1.3rem;
                     text-align: center;
+                    color: $wotlkblue;
+                    transition: all 1.5s;
+                    @include media('>mid'){
+                        margin-bottom: 1rem;
+                    };
+                    &__img{
+                        height: 80px;
+                        width: 80px;
+                        @include media('>mid'){
+                            height: 130px;
+                            width: 130px;
+                        };
+                        img{
+                            height: 80px;
+                            width: 80px; 
+                            @include media('>mid'){
+                                height: 130px;
+                                width: 130px;
+                            };
+                        }
+                    }
                 }
             }
             &__bot{
-                border: solid 2px yellow;
                 &__spec{
-                    border: solid 2px green;
                     &__container{
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-                        border: solid 2px green;
-                        padding: 1rem
+                        padding: 1rem;
+                        border: solid 1px $wotlkblue;
+                        font-size: 1.1rem;
+                        transition: all 1.1s;
+                        &:hover{
+                            @include media('>mid'){
+                                font-size: 1.3rem;
+                            };
+                        }
+                        &__name{
+                        }
+                        &__plus{
+                            text-transform: uppercase;
+                            &.open{
+                                color: green;
+                            }
+                            &.close{
+                                color: red;
+                            }
+                        }
                     }
                 }
             }
-            .close{
+            .hidden{
                 display: none;
+                @include media('>mid'){
+                    display: block;
+                };
             }
             
         }

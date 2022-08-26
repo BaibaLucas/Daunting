@@ -7,6 +7,13 @@ const Modal = ({img, wowClass}) => {
   /// Modal State
   const [open, setOpen] = useState(false);
 
+  // UseEffect unmount unset overflow (modal)
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, []);
+
   // Detect windows size. If user modify height screen disable modale.
   const [height, setHeight] = useState(window.innerHeight);
   const [width, setWidth] = useState(window.innerWidth);
