@@ -10,9 +10,7 @@ const Recruitment = () => {
     // if it's in the array, then remove it
     // debugger;
     if (openSpec.includes(wowClass)){
-      console.log('OpenSpec is not empty', openSpec);
       const index = openSpec.indexOf(wowClass);
-      console.log('index', index);
       if(index > -1) {
         /**
          * @TODO remove 1 ELEMENT from array
