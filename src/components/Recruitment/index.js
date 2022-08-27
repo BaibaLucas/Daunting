@@ -4,18 +4,28 @@ import {data as WoWClasses} from '../../data/WowClasses';
 
 const Recruitment = () => {
 
-  const [openSpec, setOpenSpec] = useState([]);
+  const [openSpec, setOpenSpec] = useState([{}]);
 
   const toggle = (wowClass) => {
     // if it's in the array, then remove it
+    // debugger;
     if (openSpec.includes(wowClass)){
+      console.log('OpenSpec is not empty', openSpec);
       const index = openSpec.indexOf(wowClass);
+      console.log('index', index);
       if(index > -1) {
-        setOpenSpec(openSpec.splice(index, 0));
+        /**
+         * @TODO remove 1 ELEMENT from array
+         */
+        setOpenSpec(openSpec.splice(0, index));
       }
     }
     // If not in the array, then add it to the array
     else {
+      /** 
+       * replace @param openSpec instead @param ...openSpec 
+       * Only Open 1 by 1
+       * */ 
       setOpenSpec([...openSpec, wowClass]);
     }
   }
@@ -39,8 +49,8 @@ const Recruitment = () => {
                   return(
                     <React.Fragment key={ind}>
                     <div key={'index'+ind}className='recruitment__container__card__bot__spec__container'>
-                      <div className="recruitment__container__card__bot__spec__container__name">
-                        {spec.name}
+                      <div className="recruitment__container__card__bot__spec__container__logo">
+                        <img src={spec.img} alt={spec.name + 'logo'}></img>
                       </div>
                       <div className={`recruitment__container__card__bot__spec__container__plus ${spec.open}`}>
                         {spec.open}

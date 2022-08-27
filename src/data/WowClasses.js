@@ -8,6 +8,37 @@ import mage from '../assets/iconWow/mage1.png';
 import paladin from '../assets/iconWow/paladin1.png';
 import priest from '../assets/iconWow/priest1.png';
 import rogue from '../assets/iconWow/rogue1.png';
+import selem from '../assets/iconWow/selem.png';
+import senh from '../assets/iconWow/senh.png';
+import sresto from '../assets/iconWow/sresto.png';
+import hbm from '../assets/iconWow/hbm.png';
+import hmm from '../assets/iconWow/hmm.png';
+import hsurvival from '../assets/iconWow/hsurvival.png';
+import dkblood from '../assets/iconWow/dkblood.png';
+import dkfrost from '../assets/iconWow/dkfrost.png';
+import dkunholy from '../assets/iconWow/dkunholy.png';
+import waffli from '../assets/iconWow/waffli.png';
+import wdemo from '../assets/iconWow/wdemo.png';
+import wdestru from '../assets/iconWow/wdestru.png';
+import dbalance from '../assets/iconWow/dbalance.png';
+import dferal from '../assets/iconWow/dferal.png';
+import dguardian from '../assets/iconWow/dguardian.png';
+import drestoration from '../assets/iconWow/drestoration.png';
+import wfury from '../assets/iconWow/wfury.png';
+import warms from '../assets/iconWow/warms.png';
+import wprotection from '../assets/iconWow/wprotection.png';
+import marcane from '../assets/iconWow/marcane.png';
+import mfire from '../assets/iconWow/mfire.png';
+import mfrost from '../assets/iconWow/mfrost.png';
+import pholy from '../assets/iconWow/pholy.png';
+import pprotection from '../assets/iconWow/pprotection.png';
+import pretribution from '../assets/iconWow/pretribution.png';
+import prholy from '../assets/iconWow/prholy.png';
+import prshadow from '../assets/iconWow/prshadow.png';
+import prdp from '../assets/iconWow/prdp.png';
+import rassa from '../assets/iconWow/rassa.png';
+import rsub from '../assets/iconWow/rsub.png';
+import rcombat from '../assets/iconWow/rcombat.png';
 
 export const data = [
   {
@@ -16,14 +47,17 @@ export const data = [
     "spec": [
       {
         "name":"Enhancement",
+        "img": senh,
         "open": "open"
       },
       {
         "name":"Elemental",
+        "img": selem,
         "open": "open"
       },
       {
         "name":"Restoration",
+        "img": sresto,
         "open": "open" 
       }
     ]
@@ -34,14 +68,17 @@ export const data = [
     "spec": [
       {
         "name":"Beast Master",
+        "img": hbm,
         "open": "close" 
       },
       {
         "name":"Marksmanship",
+        "img": hmm,
         "open": "close" 
       },
       {
         "name":"Survival",
+        "img": hsurvival,
         "open": "close" 
       }
     ]
@@ -52,14 +89,17 @@ export const data = [
     "spec": [
       {
         "name":"Frost",
+        "img": dkfrost,
         "open": "open" 
         },
       {
         "name":"Unholy",
+        "img": dkunholy,
         "open": "open" 
       },
       {
         "name":"Blood",
+        "img": dkblood,
         "open": "open" 
       }
     ]
@@ -70,14 +110,17 @@ export const data = [
     "spec": [
       {
         "name":"Affliction",
+        "img": waffli,
         "open": "close" 
       },
       {
         "name":"Demonology",
+        "img": wdemo,
         "open": "close" 
       },
       {
         "name":"Destruction",
+        "img": wdestru,
         "open": "close" 
       }
     ]
@@ -87,19 +130,23 @@ export const data = [
     "img": druid,
     "spec": [
       {
-        "name":"Feral DPS",
+        "name":"Feral",
+        "img": dferal,
         "open": "open" 
       },
       {
-        "name":"Feral TANK",
+        "name":"Guardian",
+        "img": dguardian,
         "open": "open" 
       },
       {
         "name":"Balance",
+        "img": dbalance,
         "open": "close" 
       },
       {
         "name":"Restoration",
+        "img": drestoration,
         "open": "close" 
       }
     ]
@@ -110,14 +157,17 @@ export const data = [
     "spec": [
       {
         "name":"Arms",
+        "img": warms,
         "open": "close" 
       },
       {
         "name":"Fury",
+        "img": wfury,
         "open": "close" 
       },
       {
         "name":"Protection",
+        "img": wprotection,
         "open": "close" 
       }
     ]
@@ -128,14 +178,17 @@ export const data = [
     "spec": [
       {
         "name":"Arcane",
+        "img": marcane,
         "open": "close" 
       },
       {
         "name":"Fire",
+        "img": mfire,
         "open": "close" 
       },
       {
         "name":"Frost",
+        "img": mfrost,
         "open": "close" 
       }
     ]
@@ -146,14 +199,17 @@ export const data = [
     "spec": [
       {
         "name":"Protection",
+        "img": pprotection,
         "open": "close" 
       },
       {
         "name":"Holy",
-        "open": "open" 
+        "img": pholy,
+        "open": "close" 
       },
       {
         "name":"Retribution",
+        "img": pretribution,
         "open": "close" 
       }
     ]
@@ -164,14 +220,17 @@ export const data = [
     "spec": [
       {
         "name":"Discipline",
+        "img": prdp,
         "open": "open" 
       },
       {
         "name":"Shadow",
+        "img": prshadow,
         "open": "close" 
       },
       {
         "name":"Holy",
+        "img": prholy,
         "open": "open" 
       }
     ]
@@ -182,15 +241,18 @@ export const data = [
     "spec": [
       {
         "name":"Assassination",
-        "open": "close" 
+        "img": rassa,
+        "open": "open" 
       },
       {
         "name":"Combat",
-        "open": "close"
+        "img": rcombat,
+        "open": "open"
       },
       {
         "name":"Subtlety",
-        "open": "close" 
+        "img": rsub,
+        "open": "open" 
       }
     ]
   }

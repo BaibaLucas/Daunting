@@ -90,12 +90,27 @@
                         border: solid 1px $wotlkblue;
                         font-size: 1.1rem;
                         transition: all 1.1s;
+                        align-items: center;
+                        @include media('>mid'){
+                        };
                         &:hover{
                             @include media('>mid'){
                                 font-size: 1.3rem;
+                                padding: 1.2rem;
                             };
+                            img{
+                                width: 52px;
+                                height: 52px;
+                            }
                         }
-                        &__name{
+                        &__logo{
+                            width: 48px;
+                            height: 48px;
+                            img{
+                                transition: all 1.1s;
+                                width: 48px;
+                                height: 48px;
+                            }
                         }
                         &__plus{
                             text-transform: uppercase;
