@@ -48,17 +48,17 @@ export const data = [
       {
         "name":"Enhancement",
         "img": senh,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Elemental",
         "img": selem,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Restoration",
         "img": sresto,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -90,17 +90,17 @@ export const data = [
       {
         "name":"Frost",
         "img": dkfrost,
-        "open": "open" 
+        "open": "close" 
         },
       {
         "name":"Unholy",
         "img": dkunholy,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Blood",
         "img": dkblood,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -132,12 +132,12 @@ export const data = [
       {
         "name":"Feral",
         "img": dferal,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Guardian",
         "img": dguardian,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Balance",
@@ -231,7 +231,7 @@ export const data = [
       {
         "name":"Holy",
         "img": prholy,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -242,17 +242,17 @@ export const data = [
       {
         "name":"Assassination",
         "img": rassa,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Combat",
         "img": rcombat,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Subtlety",
         "img": rsub,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   }
