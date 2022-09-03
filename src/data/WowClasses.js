@@ -95,7 +95,7 @@ export const data = [
       {
         "name":"Unholy",
         "img": dkunholy,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Blood",
@@ -158,12 +158,12 @@ export const data = [
       {
         "name":"Arms",
         "img": warms,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Fury",
         "img": wfury,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Protection",
