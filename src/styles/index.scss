@@ -27,6 +27,9 @@
 @import '../components/Header/DesktopMenu/DesktopMenu';
 
 /* Base */
+:root {
+  --vh: 1vh;
+}
 
 html,
 body {
@@ -35,21 +38,10 @@ body {
   width: 100%;
   color:white;
   cursor: default;
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 /* Upgrade */
-
-html{
-  height: -webkit-fill-available;
-}
-
-/* Avoid Chrome to see Safari hack */
-@supports (-webkit-touch-callout: none) {
-  body {
-    /* The hack for Safari */
-    min-height: -webkit-fill-available;
-  }
-}
 
 *{
   box-sizing: border-box;
