@@ -27,10 +27,6 @@
 @import '../components/Header/DesktopMenu/DesktopMenu';
 
 /* Base */
-:root {
-  --vh: 1vh;
-}
-
 html,
 body {
   font-family: 'Lato', sans-serif;
@@ -38,7 +34,6 @@ body {
   width: 100%;
   color:white;
   cursor: default;
-  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 /* Upgrade */
