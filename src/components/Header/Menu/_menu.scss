@@ -1,0 +1,48 @@
+.menu{
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgba(14, 14, 14, 0.984);
+  transform: translateY(-150%);
+  border-bottom: 1px $wotlkblue solid;
+  z-index: -1;
+  @include media('>large'){
+    display: none;
+  };
+  &__nav{
+    margin-top: 4rem;
+    height: 100%;
+    width: 100%;
+    &__list{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      &__item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: $wotlkblue;
+        &:hover{
+          background: $wotlkblue;
+          color: white;
+        }
+        &__name{
+          padding: 1rem;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  &.active{
+    transform: translateY(0%);
+    position: fixed;
+  }
+}

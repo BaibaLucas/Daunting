@@ -7,6 +7,7 @@
 @import './breakpoints';
 
 /* Colors vars*/
+@import './vars';
 
 
 /* Components styles */
@@ -14,11 +15,16 @@
 @import '../components/Home/home';
 @import '../components/Footer/footer';
 @import '../components/NotFound/notFound';
+@import '../components/WorkInProgress/workInProgress';
 @import '../components/CountDown/countDown';
 @import '../components/Modal/modal';
 @import '../components/Modal/ModalContent/modalContent';
 @import '../components/Modal/CatchEye/catchEye';
 @import '../components/Recruitment/recruitment';
+@import '../components/Header/header';
+@import '../components/Header/Burger/burger';
+@import '../components/Header/Menu/menu';
+@import '../components/Header/DesktopMenu/DesktopMenu';
 
 /* Base */
 
@@ -63,4 +69,11 @@ h2{
 a{
   text-decoration: none;
   color: white;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }

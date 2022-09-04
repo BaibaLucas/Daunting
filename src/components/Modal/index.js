@@ -2,10 +2,17 @@ import React, { useState, useEffect } from 'react';
 import CatchEye from './CatchEye';
 import ModalContent from './ModalContent';
 
-const Modal = ({img}) => {
+const Modal = ({img, wowClass}) => {
 
   /// Modal State
   const [open, setOpen] = useState(false);
+
+  // UseEffect unmount unset overflow (modal)
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, []);
 
   // Detect windows size. If user modify height screen disable modale.
   const [height, setHeight] = useState(window.innerHeight);
@@ -19,13 +26,21 @@ const Modal = ({img}) => {
     return () => window.removeEventListener('resize', handleResize);
   }, [height, width]);
 
+  useEffect(() => {
+    if(open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  });
+
   return (
       <>
       {height > 300 && (
         <div className={open ? 'modal close' : 'modal'}>
         <div className='modal__container'>
           <CatchEye open={open} setOpen={setOpen} />
-          <ModalContent open={open} setOpen={setOpen} img={img}/>
+          <ModalContent open={open} setOpen={setOpen} img={img} wowClass={wowClass}/>
         </div>
       </div>
       )}
