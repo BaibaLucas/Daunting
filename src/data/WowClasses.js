@@ -74,12 +74,12 @@ export const data = [
       {
         "name":"Marksmanship",
         "img": hmm,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Survival",
         "img": hsurvival,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
@@ -221,7 +221,7 @@ export const data = [
       {
         "name":"Discipline",
         "img": prdp,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Shadow",
