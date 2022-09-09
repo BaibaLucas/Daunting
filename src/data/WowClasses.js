@@ -231,7 +231,7 @@ export const data = [
       {
         "name":"Holy",
         "img": prholy,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
