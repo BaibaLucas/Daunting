@@ -132,7 +132,7 @@ export const data = [
       {
         "name":"Feral",
         "img": dferal,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Guardian",
@@ -231,7 +231,7 @@ export const data = [
       {
         "name":"Holy",
         "img": prholy,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },

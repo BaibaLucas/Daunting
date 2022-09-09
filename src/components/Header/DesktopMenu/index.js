@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
-const DesktopMenu = ({ }) => {
+const DesktopMenu = () => {
   return (
     <div className='desktopmenu'>
       <nav className='desktopmenu__nav'>
