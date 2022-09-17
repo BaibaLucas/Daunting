@@ -58,7 +58,7 @@ export const data = [
       {
         "name":"Restoration",
         "img": sresto,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
@@ -90,7 +90,7 @@ export const data = [
       {
         "name":"Frost",
         "img": dkfrost,
-        "open": "close" 
+        "open": "open" 
         },
       {
         "name":"Unholy",
@@ -100,7 +100,7 @@ export const data = [
       {
         "name":"Blood",
         "img": dkblood,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
@@ -116,7 +116,7 @@ export const data = [
       {
         "name":"Demonology",
         "img": wdemo,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Destruction",
@@ -221,17 +221,17 @@ export const data = [
       {
         "name":"Discipline",
         "img": prdp,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Shadow",
         "img": prshadow,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Holy",
         "img": prholy,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
