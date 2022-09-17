@@ -7,6 +7,7 @@ import WorkInProgress from '../WorkInProgress';
 import Footer from '../Footer';
 import Header from '../Header';
 import Recruitment from '../Recruitment';
+import About from '../About';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/recruitment' element={<Recruitment />} />
         <Route path='/progress' element={<WorkInProgress  />} />
-        <Route path='/about' element={<WorkInProgress  />} />
+        <Route path='/about' element={<About  />} />
       </Routes>
       <Footer />
     </div>

@@ -147,7 +147,7 @@ export const data = [
       {
         "name":"Restoration",
         "img": drestoration,
-        "open": "close" 
+        "open": "Open" 
       }
     ]
   },
