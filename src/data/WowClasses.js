@@ -58,7 +58,7 @@ export const data = [
       {
         "name":"Restoration",
         "img": sresto,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -74,12 +74,12 @@ export const data = [
       {
         "name":"Marksmanship",
         "img": hmm,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Survival",
         "img": hsurvival,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -90,17 +90,17 @@ export const data = [
       {
         "name":"Frost",
         "img": dkfrost,
-        "open": "open" 
+        "open": "close" 
         },
       {
         "name":"Unholy",
         "img": dkunholy,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Blood",
         "img": dkblood,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -111,12 +111,12 @@ export const data = [
       {
         "name":"Affliction",
         "img": waffli,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Demonology",
         "img": wdemo,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Destruction",
@@ -158,12 +158,12 @@ export const data = [
       {
         "name":"Arms",
         "img": warms,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Fury",
         "img": wfury,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Protection",
@@ -179,12 +179,12 @@ export const data = [
       {
         "name":"Arcane",
         "img": marcane,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Fire",
         "img": mfire,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Frost",
@@ -242,12 +242,12 @@ export const data = [
       {
         "name":"Assassination",
         "img": rassa,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Combat",
         "img": rcombat,
-        "open": "close"
+        "open": "open"
       },
       {
         "name":"Subtlety",
