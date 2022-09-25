@@ -74,12 +74,12 @@ export const data = [
       {
         "name":"Marksmanship",
         "img": hmm,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Survival",
         "img": hsurvival,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
@@ -116,7 +116,7 @@ export const data = [
       {
         "name":"Demonology",
         "img": wdemo,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Destruction",
@@ -226,7 +226,7 @@ export const data = [
       {
         "name":"Shadow",
         "img": prshadow,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Holy",
