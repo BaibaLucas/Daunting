@@ -242,12 +242,12 @@ export const data = [
       {
         "name":"Assassination",
         "img": rassa,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Combat",
         "img": rcombat,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Subtlety",
