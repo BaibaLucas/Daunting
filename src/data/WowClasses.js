@@ -111,12 +111,12 @@ export const data = [
       {
         "name":"Affliction",
         "img": waffli,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Demonology",
         "img": wdemo,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Destruction",
@@ -221,7 +221,7 @@ export const data = [
       {
         "name":"Discipline",
         "img": prdp,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Shadow",
@@ -231,7 +231,7 @@ export const data = [
       {
         "name":"Holy",
         "img": prholy,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },

@@ -9,8 +9,8 @@ export const data = [
     "mode": [
       {
         "name": "10",
-        "progress": "0/1",
-        "clean": false,
+        "progress": "1/1",
+        "clean": true,
         "bonus": "3D",
         "bclean": false
         
@@ -31,9 +31,9 @@ export const data = [
     "mode": [
       {
         "name": "10",
-        "progress": "0/15",
+        "progress": "15/15",
         "bonus": null,
-        "clean": false
+        "clean": true
       },
       {
         "name": "25",
@@ -49,9 +49,9 @@ export const data = [
     "mode": [
       {
         "name": "10",
-        "progress": "0/1",
+        "progress": "1/1",
         "bonus": null,
-        "clean": false
+        "clean": true
       },
       {
         "name": "25",
