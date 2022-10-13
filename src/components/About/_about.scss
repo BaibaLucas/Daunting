@@ -1,6 +1,7 @@
 .about{
   height: 100%;
   @include media('>mid'){
+    height: calc(100vh - 90px);
     display: flex;
     flex-direction: column;
     align-items: center;
