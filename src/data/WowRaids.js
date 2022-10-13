@@ -37,7 +37,7 @@ export const data = [
       },
       {
         "name": "25",
-        "progress": "0/15",
+        "progress": "9/15",
         "bonus": null,
         "clean": false
       }

@@ -1,5 +1,5 @@
 .about{
-  height: calc(100vh - 90px);
+  height: 100%;
   @include media('>mid'){
     display: flex;
     flex-direction: column;
