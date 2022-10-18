@@ -90,12 +90,12 @@ export const data = [
       {
         "name":"Frost",
         "img": dkfrost,
-        "open": "close" 
+        "open": "open" 
         },
       {
         "name":"Unholy",
         "img": dkunholy,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Blood",

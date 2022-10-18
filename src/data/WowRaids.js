@@ -13,15 +13,13 @@ export const data = [
         "clean": true,
         "bonus": "3D",
         "bclean": false
-        
       },
       {
         "name": "25",
-        "progress": "0/1",
-        "clean": false,
+        "progress": "1/1",
+        "clean": true,
         "bonus": "3D",
         "bclean": false,
-        
       }
     ]  
   },
@@ -37,9 +35,9 @@ export const data = [
       },
       {
         "name": "25",
-        "progress": "9/15",
+        "progress": "15/15",
         "bonus": null,
-        "clean": false
+        "clean": true
       }
     ]  
   },
@@ -55,9 +53,9 @@ export const data = [
       },
       {
         "name": "25",
-        "progress": "0/1",
+        "progress": "1/1",
         "bonus": null,
-        "clean": false
+        "clean": true
       }
     ]  
   },
