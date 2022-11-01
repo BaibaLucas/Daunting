@@ -12,14 +12,14 @@ export const data = [
         "progress": "1/1",
         "clean": true,
         "bonus": "3D",
-        "bclean": false
+        "bclean": true
       },
       {
         "name": "25",
         "progress": "1/1",
         "clean": true,
         "bonus": "3D",
-        "bclean": false,
+        "bclean": true,
       }
     ]  
   },
