@@ -48,7 +48,7 @@ export const data = [
       {
         "name":"Enhancement",
         "img": senh,
-        "open": "close"
+        "open": "open"
       },
       {
         "name":"Elemental",
@@ -158,12 +158,12 @@ export const data = [
       {
         "name":"Arms",
         "img": warms,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Fury",
         "img": wfury,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Protection",
@@ -205,7 +205,7 @@ export const data = [
       {
         "name":"Holy",
         "img": pholy,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Retribution",
