@@ -1,6 +1,7 @@
 .recruitment{
-    height: 100%;
+    min-height: 100%;
     padding-top: 7rem;
+    text-align: center;
     @include media('>mid'){
         display: flex;
         flex-direction: column;
@@ -19,5 +20,8 @@
             flex-wrap: wrap;
             justify-content: center;
         };
+    }
+    &__footer{
+        padding: 1rem;
     }
 }

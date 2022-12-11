@@ -33,6 +33,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="about__footer">
+          Copyright © Daunting. All right reserved.
+      </div>
     </div>
   )
 

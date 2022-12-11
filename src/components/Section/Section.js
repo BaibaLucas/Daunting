@@ -3,12 +3,19 @@ import React from 'react';
 
 const Section = ({ section, subSection}) => {
 
+  const backgroundLegibility = (content, image) =>
+  {
+    if(content !== undefined)
+      return `linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)),url(${section.image})`
+
+    return `url(${image})`
+  } 
   return(
     <div className='section'>
       <div
         className="mainsection"
         style={{
-          backgroundImage: `url(${section.image})`,
+          backgroundImage: backgroundLegibility(section.content, section.image),
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
@@ -41,12 +48,17 @@ const Section = ({ section, subSection}) => {
             {section.content}
           </div>
         )}
+        {section.footer && (
+        <div className="mainsection-footer">
+          {section.footer}
+        </div>
+        )}
       </div>
       {subSection && (
       <div 
         className="subsection"
         style={{
-          backgroundImage: `url(${subSection.image})`,
+          backgroundImage: backgroundLegibility(subSection.content, subSection.image),
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover',
@@ -61,11 +73,6 @@ const Section = ({ section, subSection}) => {
         {subSection.subtitle && (
         <div className="subsection-subtitle">
           {subSection.subtitle}
-        </div>
-        )}
-        {subSection.footer && (
-        <div className="subsection-footer">
-          {subSection.footer}
         </div>
         )}
       </div>
