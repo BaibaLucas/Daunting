@@ -48,7 +48,7 @@ export const data = [
       {
         "name":"Enhancement",
         "img": senh,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Elemental",
@@ -58,7 +58,7 @@ export const data = [
       {
         "name":"Restoration",
         "img": sresto,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -147,7 +147,7 @@ export const data = [
       {
         "name":"Restoration",
         "img": drestoration,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -221,7 +221,7 @@ export const data = [
       {
         "name":"Discipline",
         "img": prdp,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Shadow",
@@ -231,7 +231,7 @@ export const data = [
       {
         "name":"Holy",
         "img": prholy,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
