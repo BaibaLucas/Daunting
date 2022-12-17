@@ -48,7 +48,7 @@ export const data = [
       {
         "name":"Enhancement",
         "img": senh,
-        "open": "close"
+        "open": "open"
       },
       {
         "name":"Elemental",
@@ -242,17 +242,17 @@ export const data = [
       {
         "name":"Assassination",
         "img": rassa,
-        "open": "open" 
+        "open": "close" 
       },
       {
         "name":"Combat",
         "img": rcombat,
-        "open": "open"
+        "open": "close"
       },
       {
         "name":"Subtlety",
         "img": rsub,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   }
