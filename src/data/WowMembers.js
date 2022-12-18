@@ -1,6 +1,8 @@
 import Almire from '../assets/membersWow/almire.png';
 import Begon from '../assets/membersWow/begon.png';
+import Coznik from '../assets/membersWow/coznik.jpg';
 import Exinia from '../assets/membersWow/exinia.png';
+import Ogibi from '../assets/membersWow/ogibi.png';
 import Paybak from '../assets/membersWow/paybak.png';
 import Syke from '../assets/membersWow/syke.png';
 import Sari from '../assets/membersWow/sari.png';
@@ -17,9 +19,19 @@ export const data = [
     "desc": "Hardstuck 99%"
   },
   {
+    "name": "Coznik",
+    "img": Coznik,
+    "desc": "Void here !"
+  },
+  {
     "name": "Exinia",
     "img": Exinia,
     "desc": "Le sens du détail"
+  },
+  {
+    "name": "Ogibi",
+    "img": Ogibi,
+    "desc": "Fists of Maelstrom"
   },
   {
     "name": "Paybak",
