@@ -14,6 +14,9 @@ const Progress = () => {
           );
         })}
       </div>
+      <div className="progress__footer">
+        Copyright © Daunting. All right reserved.
+      </div>
     </div>
   )
 };

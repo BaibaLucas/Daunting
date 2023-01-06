@@ -15,6 +15,9 @@ const Recruitment = () => {
         })
       }
       </div>
+      <div className="recruitment__footer">
+        Copyright © Daunting. All right reserved.
+      </div>
     </div>
   )
 

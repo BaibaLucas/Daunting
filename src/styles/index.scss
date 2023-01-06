@@ -1,6 +1,7 @@
 /* Import fonts
 @link https://fonts.google.com 
 */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* Breakpoints vars */
@@ -12,7 +13,9 @@
 
 /* Components styles */
 @import '../components/App/app';
-@import '../components/Home/home';
+@import '../pages/home';
+@import '../components/Section//section';
+@import '../components/MembersCarousel/membersCarousel';
 @import '../components/Footer/footer';
 @import '../components/NotFound/notFound';
 @import '../components/WorkInProgress/workInProgress';

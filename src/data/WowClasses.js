@@ -48,12 +48,12 @@ export const data = [
       {
         "name":"Enhancement",
         "img": senh,
-        "open": "close"
+        "open": "open"
       },
       {
         "name":"Elemental",
         "img": selem,
-        "open": "close"
+        "open": "open"
       },
       {
         "name":"Restoration",
@@ -111,17 +111,17 @@ export const data = [
       {
         "name":"Affliction",
         "img": waffli,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Demonology",
         "img": wdemo,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Destruction",
         "img": wdestru,
-        "open": "close" 
+        "open": "open" 
       }
     ]
   },
@@ -142,12 +142,12 @@ export const data = [
       {
         "name":"Balance",
         "img": dbalance,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Restoration",
         "img": drestoration,
-        "open": "open" 
+        "open": "close" 
       }
     ]
   },
@@ -226,7 +226,7 @@ export const data = [
       {
         "name":"Shadow",
         "img": prshadow,
-        "open": "close" 
+        "open": "open" 
       },
       {
         "name":"Holy",
