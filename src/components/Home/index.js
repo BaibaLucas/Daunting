@@ -13,14 +13,10 @@ const Home = () => {
           <div className='home__content__text__title'>
             Daunting
           </div>
-          <div className='home__content__text__description'>
-            coming soon
-          </div>
           <div className='home__content__text__server'>
             EU-Sulfuron PVP
           </div>
         </div>
-        <Modal img={arthas} wowClass={''}/>
       </div>
     </div>
   )
